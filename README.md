@@ -1,4 +1,16 @@
-.header {
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   STARK Portfolio
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+</head>
+<style>
+    .header {
     background-color: #0C4A60; /* Set header color */
     color: #FFFFFF; /* Optional: Set text color for better contrast */
     padding: 20px; /* Add some padding */
@@ -19,18 +31,8 @@
 .nav-link:hover {
     background-color: #D89A4D; /* Darker shade for hover effect */
     transform: scale(1.05); /* Slightly scale up on hover */
-<html lang="en">
- <head>
-  <meta charset="utf-8"/>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-  <title>
-   STARK Portfolio
-  </title>
-  <script src="https://cdn.tailwindcss.com">
-  </script>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
-  <link rel="stylesheet" href="aboutchikour.css"> 
-</head>
+}
+</style>
  <body class="bg-[#0C4A60] text-white font-sans">
     <header class="header"> <!-- Updated class to 'header' -->
         <div class="flex items-center mr-8">
